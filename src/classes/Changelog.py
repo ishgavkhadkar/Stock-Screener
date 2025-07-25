@@ -7,7 +7,7 @@
 
 from classes.ColorText import colorText
 
-VERSION = "2.28"
+VERSION = "2.29"
 
 changelog = colorText.BOLD + '[ChangeLog]\n' + colorText.END + colorText.BLUE + '''
 [1.00 - Beta]
@@ -312,4 +312,7 @@ changelog = colorText.BOLD + '[ChangeLog]\n' + colorText.END + colorText.BLUE + 
 
 [2.28]
 1. Bugfixes - yfinance package updated to 0.2.65 to fix Yahoo Finance rate limit issue
+
+[2.29]
+1. Bugfixes - yfinance package downgraded to 0.2.61
 ''' + colorText.END
